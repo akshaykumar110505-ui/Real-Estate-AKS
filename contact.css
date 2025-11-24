@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: #000;
+}
+
+
+.about-hero {
+    height: 80vh;
+    background: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be') center/cover no-repeat;
+    display: flex;
+    padding: 100px 20px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    
+    
+}
+
+
+.contact-hero {
+    background: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be') center/cover no-repeat;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.contact-section {
+    display: flex;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.contact-form, .contact-info {
+    flex: 1;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.contact-form form button {
+    width: 100%;
+    padding: 12px;
+    background: #304FFE;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-info {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}

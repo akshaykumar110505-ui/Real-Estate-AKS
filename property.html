@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Details</title>
+    <link rel="stylesheet" href="property.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">RealEstate</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="property.html">Properties</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO IMAGE -->
+    <section class="hero-image">
+        <img src="https://images.pexels.com/photos/10860316/pexels-photo-10860316.jpeg" alt="Property Image">
+    </section>
+
+    <!-- PROPERTY DETAILS SECTION -->
+    <section class="details">
+
+        <div class="left">
+            <h1>3BHK Luxury Villa - Mumbai</h1>
+            <p class="price">₹2.5 Cr</p>
+            <p class="location">📍 Bandra West, Mumbai</p>
+
+            <h2>Property Description</h2>
+            <p class="desc">
+                This stunning 3BHK luxury villa offers a spacious living area,
+                modern interiors, sea-facing balcony, and high-quality fittings.
+                Located in one of Mumbai’s most premium neighborhoods.
+            </p>
+
+            <h2>Features</h2>
+            <ul class="features" style="list-style-type: none;">
+                <li>✔ 2500 sqft built-up area</li>
+                <li>✔ 3 Bedrooms, 3 Bathrooms</li>
+                <li>✔ Modular Kitchen</li>
+                <li>✔ Private Parking</li>
+                <li>✔ 24x7 Security</li>
+                <li>✔ Sea View Balcony</li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <div class="card">
+                <h2>Contact Agent</h2>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <input type="text" placeholder="Phone Number">
+                <textarea placeholder="Message"></textarea>
+                <button class="btn" onclick="showmessage()">Send Enquiry</button>
+            </div>
+        </div>
+
+    </section>
+<script>
+    function showmessage()
+    {
+        alert("Our Team Will Contact You Soon");
+    }
+</script>
+    
+
+    <!-- GALLERY SECTION -->
+    <section class="gallery">
+        <h2>Gallery</h2>
+
+        <div class="gallery-grid">
+            <img src="https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg" alt="">
+            <img src="https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg" alt="">
+            <img src="https://images.pexels.com/photos/681368/pexels-photo-681368.jpeg" alt="">
+            <img src="https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg" alt="">
+        </div>
+    </section>
+
+</body>
+</html>

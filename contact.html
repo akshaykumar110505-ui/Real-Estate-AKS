@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Real Estate</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<header>
+    <h2 class="logo">RealEstate</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="listings.html">Properties</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="contact-hero">
+    <h1>Contact Us</h1>
+    <p>We're here to help you find the perfect property.</p>
+</section>
+
+
+
+<section class="contact-section">
+    <div class="contact-form">
+        <h2>Send a Message</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="text" placeholder="Phone Number" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" onclick="show()">Send Message</button>
+             <p  id="Message"  style="display: none;"   style="color: green;">Thank You For Chossing Us We Will Contact You Soon</p>
+           
+        </form>
+
+    </div>
+    
+    <script>
+        function show()
+            {
+                document.getElementById("Message").style.display = "block";
+            }
+        
+    </script>
+
+    <div class="contact-info">
+        <h2>Our Office</h2>
+        <p>123 Real Estate Street, Delhi, India</p>
+        <p>Email: info@realestate.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Working Hours: Mon–Sat (9 AM – 6 PM)</p>
+    </div>
+</section>
+
+</body>
+</html>
